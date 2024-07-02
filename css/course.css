@@ -1,0 +1,197 @@
+/* Google 字體 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* 主體風格 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 導航欄 */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #007bff;
+}
+
+/* 頁面標題 */
+.masthead {
+    background-image: url('assets/img/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+}
+
+.page-heading {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.6);
+}
+
+/* 評論卡片 */
+.card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.card .stars {
+    color: #ffc107; /* 星星的顏色 */
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: none;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.card-body {
+    color: #555;
+}
+
+/* 表單風格 */
+.courseSearch {
+    margin: 2rem 0;
+}
+
+.courseSearch td {
+    padding: .5rem;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    color: #666;
+    border-top: 1px solid #eaeaea;
+}
+
+.fa-circle {
+    color: #333;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-github {
+    color: #fff;
+}
+/* 添加到您的styles.css文件中 */
+
+/* 評論區域樣式 */
+.reviews-section {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.review-card {
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    max-height: 80px; /* 调整为您的初始最大高度需求 */
+    padding: 10px; /* 初始内部间距，可以根据需要调整 */
+    position: relative; /* 为了定位悬停效果的容器 */
+}
+
+.review-card:hover {
+    max-height: 1000px; /* 足够大以适应内容 */
+    padding: 20px; /* 悬停时的内部间距 */
+}
+
+.review-details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+
+.review-card:hover .review-details {
+    max-height: 500px; /* 根据内容需要调整 */
+    opacity: 1;
+}
+.review-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-heading .rating-date {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.review-stars {
+    color: #ffc107; /* 星星顏色 */
+}
+
+.review-tags {
+    padding-top: 10px;
+}
+
+.review-tags span {
+    display: inline-block;
+    background-color: #e1e1e1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.review-body h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.review-body p {
+    font-size: 0.95em;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+/* 隐藏评论正文直到悬停 */
+.review-body {
+    display: none;
+}
+.review-card:hover .review-body {
+    display: block;
+}
+
+.btn-primary.custom-search-btn {
+    background-color: #007bff; /* Adjust the color to match your image */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* This gives the button rounded corners */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* This adds a shadow effect */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary.custom-search-btn .fas {
+    margin-right: 5px;
+}

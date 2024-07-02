@@ -1,0 +1,23 @@
+.statistics-container {
+    display: flex;
+    justify-content: space-around;
+    background: #f7f7f7; /* Example background color */
+    padding: 20px;
+    border-radius: 15px;
+    /* Add other styles such as shadows, etc., according to your design */
+}
+
+.statistic {
+    text-align: center;
+}
+
+.statistic h3 {
+    font-size: 2em; /* Large font size for the numbers */
+    color: #333; /* Example text color */
+}
+
+.statistic p {
+    margin-top: 5px;
+    color: #666; /* Example text color */
+}
+

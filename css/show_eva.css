@@ -1,0 +1,94 @@
+.course {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.course th,
+.course td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd; /* Light grey border */
+}
+
+.course th {
+    background-color: #f8f8f8; /* Light grey background */
+    font-weight: bold;
+}
+
+.post-heading {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.post-heading h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+}
+
+.post-heading .subheading {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #6c757d; /* Grey text */
+}
+
+/* Style for the review cards */
+.review-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.review-card h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.review-card .fa-star {
+    color: #ffc107; /* Star rating color */
+}
+
+/* Footer styles */
+footer.border-top {
+    border-top: 1px solid #eaeaea;
+    padding-top: 1rem;
+}
+
+/* Adjust the footer icons size and color */
+footer .fa-stack {
+    font-size: 1.5rem;
+}
+
+footer .fa-circle {
+    color: #333;
+}
+
+footer .fa-inverse {
+    color: #fff;
+}
+
+footer .list-inline-item {
+    margin: 0.5rem;
+}
+
+footer .text-muted {
+    color: #6c757d; /* Grey text */
+}
+
+/* Ensure the copyright text is small and italic */
+footer .fst-italic {
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+/* Bootstrap overrides */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
