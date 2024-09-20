@@ -24,9 +24,8 @@
 * 根據不同評分項目作統計，顯示不同的**排行榜**
 * 排行榜將顯示評分最高的前10名課程
 
-![image](https://github.com/user-attachments/assets/82668f67-e18b-4121-b0af-4559aa35c047)
-![image](https://github.com/user-attachments/assets/a2c8cd3e-d307-4792-9c93-b16080e4a46e)
-
+![image](https://github.com/user-attachments/assets/f1076ae1-b090-41ba-9c95-b5354537e780)
+![image](https://github.com/user-attachments/assets/6346caaf-e097-41a8-a686-406d5f53cc68)
 
 ### 查看評價
 * 點選功能表的「課程查詢」，依學院、系名來查詢
